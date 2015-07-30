@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 %define import_path github.com/russross/blackfriday
-%define gopath %{_libdir}/golang
+%define gopath %{_libdir}/go
 %define gosrc %{gopath}/src/%{import_path}
 
 Summary:	Markdown processor for Go
@@ -47,5 +47,3 @@ rm -f %{buildroot}%{gosrc}/{README.md}
 %doc README.md
 %dir %attr(755,root,root) %{gosrc}
 %{gosrc}/*.go
-
-
