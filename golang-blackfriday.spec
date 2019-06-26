@@ -6,7 +6,7 @@
 
 Summary:	Markdown processor for Go
 Name:		golang-blackfriday
-Version:	1.2
+Version:	2.0.1
 Release:	4
 License:	BSD
 Group:		Development/Other
